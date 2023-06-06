@@ -54,4 +54,10 @@ public class BookController {
         model.put("pages", bookSave.getPages());
     }
 
+    @Produces(MediaType.TEXT_PLAIN)
+    @Get("/stock/{isbn}")
+    public Integer stock(String isbn) {
+        throw new OutOfStockException();
+    }
+
 }
