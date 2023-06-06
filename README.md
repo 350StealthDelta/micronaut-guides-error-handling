@@ -19,5 +19,7 @@
 ## Feature http-client documentation
 
 - [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+---
+Example of Error Handling in Micronaut from Micronaut Guides
 
-
+ref. to ver. 3.9.2
